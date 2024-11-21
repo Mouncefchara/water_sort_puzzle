@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body{
+    background-color: black;
+}
+
+
+#game{
+    padding: 0px 10px;
+    margin:25px 60px;
+    background-color: rgb(17, 191, 244);
+    width: 80%;
+    height: 90vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bottle{
+    
+width: 15%;
+height: 40vh;
+background-color: rgb(228, 237, 237);
+padding-left: 7px;
+transition: 0.2s;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.bottle:hover{
+    width: 17%;
+    height: 42vh;
+}
+.Red{
+    margin: 3px;
+    width: 80%;
+    height: 30%; 
+    background-color: rgb(255, 127, 127);
+}
+.Green{
+    margin: 3px;
+    width: 80%;
+    height: 30%; 
+    background-color: rgb(136, 255, 127);
+}
+.Blue{
+    margin: 3px;
+    width: 80%;
+    height: 30%; 
+    background-color: rgb(140, 127, 255);
+}
